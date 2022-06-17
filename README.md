@@ -6,7 +6,7 @@ In order to reproduce the experiments of our paper, do the following:
 
 1) install all required packages as specified in `environment.yml`
 
-2) run one of the scripts `experiment_drug_consumption_dataset.py`, `experiment_drug_consumption_dataset_tradeoff_curve.py`, `experiment_COMPAS_dataset.py`, or `experiment_diabetes_dataset.py`
+2) run one of the scripts `experiment_drug_consumption_dataset.py`, `experiment_drug_consumption_dataset_tradeoff_curve.py`, `experiment_COMPAS_dataset.py`, or `experiment_diabetes_dataset.py` (when running a script, the required dataset will be downloaded automatically --- make sure you are connected to the internet)
 
 
 ## Citation
