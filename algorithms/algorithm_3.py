@@ -118,6 +118,7 @@ def algorithm_3(X, label, protected_attribute, number_of_groups,
         # that makes the max gradient isotropic
         # i.e. we replace x_i with x_i/L_i and estimate \theta_i L_i
         # rather than #theta_i
+    L[L==0] = 1  # ignores features with zero std dev to avoid nan in division by L
     x_train_split = [x / L for x in x_train_split]
     x_train = x_train / L
     L = np.sqrt(L.shape[0])
